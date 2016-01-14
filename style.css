@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+
+body {
+ width: 740px;
+ margin: 20 auto;
+ font: 1em Arial;
+ color: #666666;
+ font-size: 12px;
+ background-color: #abd5aa;
+}
+
+#rezume {
+	width: 740px;
+	background-color:#fff4f4;
+}
+
+.container {
+	
+	height: 200;
+	
+	position: relative; 
+	
+}
+
+.foto {
+ position: absolute;
+ bottom: 10px;
+ left: 5;
+}
+
+#data {
+ height: 180px;
+ font-size: 13px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: #130ac2;
+ position: absolute;
+ bottom: 0px;
+ right: 0;
+
+}
+
+p {
+	font-size: 14px;
+}
+
+ul {
+ padding-left: 30;
+ margin: ;
+}
