@@ -1,9 +1,7 @@
 @charset "utf-8";
 
-
 body {
  width: 740px;
- margin: 20 auto;
  font: 1em Arial;
  color: #666666;
  font-size: 12px;
@@ -13,31 +11,28 @@ body {
 #rezume {
 	width: 740px;
 	background-color:#fff4f4;
+	margin: 50%;
+	padding:20px;
 }
 
 .container {
-	
 	height: 200;
-	
-	position: relative; 
-	
+	position: relative;
 }
 
 .foto {
- position: absolute;
- bottom: 10px;
- left: 5;
+ float:left;
+ 
 }
-
 #data {
- height: 180px;
- font-size: 13px;
+ text-align:right;
+ font-size: 14px;
  font-family: Arial, Helvetica, sans-serif;
  color: #130ac2;
- position: absolute;
- bottom: 0px;
- right: 0;
+}
 
+#info{
+	display:inline-block;
 }
 
 p {
@@ -46,5 +41,11 @@ p {
 
 ul {
  padding-left: 30;
- margin: ;
+
+}
+h2,h5{
+	text-align: center;
+}
+#dop{
+	list-style-type: square;
 }
